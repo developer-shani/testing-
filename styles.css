@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+button { background-color: rgb(40, 179, 40);
+border: 2px solid white ;
+border-radius: 20px;
+color: white;
+font-weight:600 ;}
+
+body {
+    /* Solid background */
+    background-color: #3250a8;
+    /* Gradient background */
+    /* background: linear-gradient(45deg, rgb(21, 145, 170) 0%, #8b79dc 100%); */
+    /* Photo background */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ---------------------------------------------------------------- */
+
+  
+.student-card {
+    margin-top: 2px;
+    background-color: #454242;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width:300px;
+    text-align: center;
+  }
+  
+  .student-img img {
+    border-radius: 50%;
+    width: 120px;
+    border: 2px solid yellow;
+    height: 120px;
+    
+    
+  }
+  
+  .student-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .student-info p {
+    color: #b0acac;
+  }
+
+
+/* -------------------------Under Ground --------------------- */
+.container-fluid {
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    height: auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.container .search {
+    color: white;
+    display: flex;
+    margin-bottom: 10px ;
+    justify-content: center;
+}
+
+.container .search h1 {
+    letter-spacing: 3px;
+    display: inline-block;
+    border-bottom: 2px solid green;
+    padding-bottom: 10px;
+}
+
+.container .search input {
+    width: 100%;
+    padding: 5px 16px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    outline: none;
+}
+.container .search input:focus{
+    color: #ededed;
+    font-weight: 500;
+
+}
+.container .search input::placeholder {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.container .product-list {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Change this to flex-start */
+    text-align: left;
+}
+
+@media screen and (max-width: 479px) {
+    .product-style {
+        text-align: left;
+        object-fit: contain;
+        border-radius: 20px;
+        height: 75%;
+        padding: 4px 4px 0;
+    }
+}
+.product-style{
+    
+    border-radius: 8px;
+    padding: 10px;
+    height: 80%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  border: px solid rgba(255, 255, 255, 0.932);
+
+
+}
+
+.text-design {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+
+}
+
+img{border-radius:8px;}
+.p {
+    
+    
+     /* Add margin to create space between products */
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    border: 1px solid rgba(186, 144, 144, 0.125);
+   padding: 5px;
+    filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+    display: flex;
+    object-fit: contain;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+.container .product-list .product img {
+    width: 100%;
+    object-fit: contain;
+    height:200px;
+    
+    max-width: 200px; /* To ensure it doesn't exceed a certain size */
+}
+
+
+
